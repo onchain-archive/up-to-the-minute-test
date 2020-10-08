@@ -189,7 +189,7 @@ def index_home():
        return render_template('index1.html')
 
 if __name__ == '__main__':
-    app.run()
+    app.run(threaded=True, port=5000)
 
 
 # In[ ]:
