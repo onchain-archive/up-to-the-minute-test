@@ -7,3 +7,4 @@ numpy
 playsound
 urllib3
 flask_cors
+Frozen-Flask
